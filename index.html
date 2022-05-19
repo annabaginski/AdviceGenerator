@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="stylesheet" href="style.css">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
   
   <title>Frontend Mentor | Advice generator app</title>
 
@@ -13,17 +16,24 @@
 
     <div class="container">
 
-        <h1>Advice #</h1>
+        <h1 class="title">Advice #</h1>
 
-        <p>ADVICE HERE</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, magni.</p>
 
-        <picture>
-            <source media="(min-width: 768px)" srcset="./images/pattern-divider-mobile.svg">
-            <img src="./images/pattern-divider-mobile.svg" alt="">
+      
+
+        <picture class="desktop">
+            <img src="./images/pattern-divider-desktop.svg" alt="">
         </picture>
 
+        <picture class="mobile">
+          <img src="./images/pattern-divider-mobile.svg" alt="">
+      </picture>
+
         <div>
+          <button>
             <img src="./images/icon-dice.svg" alt="">
+          </button>
         </div>
 
     </div>
